@@ -2,7 +2,6 @@ import React from 'react';
 import * as S from './styles';
 import SocialIcons from './SocialIcons';
 import UserName from './UserName';
-import MainMenu from './MainMenu';
 
 export default class Header extends React.Component{
   render = () => {
@@ -16,8 +15,6 @@ export default class Header extends React.Component{
           <SocialIcons />
           <UserName />
         </S.ProfileInfo>
-        <MainMenu />
-        
       </S.Wrapper>
     );
   }

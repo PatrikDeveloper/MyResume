@@ -4,11 +4,10 @@ import image from '../../assets/img/patrik.png'
 
 export const Wrapper = styled('div')`
   margin-top: 10px;
-  margin-bottom: 10px;
   border: 1px solid #CCC;
   border-radius: 10px;
   overflow: hidden;
- 
+  padding: 0 0 50px;
 `;
 
 export const ImageHeader = styled('div')`

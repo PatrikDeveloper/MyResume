@@ -1,24 +1,32 @@
 import React from 'react';
 import styled from 'styled-components';
 import Header from '../Header';
-import BoxContent from '../BoxContent';
+
 
 const Wrapper = styled('div')`
   
 `;
 
-const Content = styled('div')`
+const ContentWrapper = styled('div')`
   max-width: 700px;
   margin: auto;
 `;
 
-export default function Page() {
+const Content = styled('div')`
+
+`;
+
+export default function Page(props) {
   return(
     <Wrapper>
-      <Content>
+      <ContentWrapper>
           <Header />
-          <BoxContent />
-      </Content>
+
+          <Content>
+            {props.children}
+          </Content>
+
+      </ContentWrapper>
     </Wrapper>
   )
 }

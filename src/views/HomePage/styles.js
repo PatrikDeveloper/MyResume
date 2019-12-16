@@ -1,20 +1,20 @@
 import styled from 'styled-components';
 
 export const Wrapper = styled('div')`
-  display: flex;
+  margin-top: -50px;
 `;
 
 export const ContentBox = styled('div')`
   border: 1px solid #CCC;
+  overflow: hidden;
   border-radius: 10px;
   padding: 30px;
-  margin: 5px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  margin-top: -10px;
 `;
 
 export const Title = styled('div')`
   font-size: 15px;
-  margin-bottom: 10px;
+  margin: 5px 0 30px;
 `;
 
 export const Content = styled('div')`
@@ -22,6 +22,3 @@ export const Content = styled('div')`
   color: #666;
   font-size: 12px;
 `;
-
-
-

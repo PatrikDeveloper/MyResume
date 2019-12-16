@@ -11,9 +11,9 @@ export default class BoxContent extends React.Component{
         </S.ContentBox>
         <S.ContentBox>
           <S.Title>
-            <h3>The REST API is unavailable right now.</h3>
+            <h3>Em Desenvolvimento...</h3>
           </S.Title>
-          <S.Content>This list comes from a microservice that is still under development, it's called node-blog-api. It's a NodeJS REST API that returns posts as JSON.</S.Content>
+          <S.Content>Em Desenvolvimento...</S.Content>
         </S.ContentBox>
       </S.Wrapper>
     );
