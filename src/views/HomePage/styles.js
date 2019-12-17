@@ -7,18 +7,20 @@ export const Wrapper = styled('div')`
 export const ContentBox = styled('div')`
   border: 1px solid #CCC;
   overflow: hidden;
-  border-radius: 10px;
   padding: 30px;
   margin-top: -10px;
 `;
 
 export const Title = styled('div')`
-  font-size: 15px;
-  margin: 5px 0 30px;
+  font-size: 20px;
+  margin: 20px 20px 20px;
+  color: #3CB371;
+  font-weight: bold;
 `;
 
 export const Content = styled('div')`
   text-align: justify;
   color: #666;
   font-size: 12px;
+  margin: 0 20px 0;
 `;

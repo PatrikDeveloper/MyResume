@@ -33,7 +33,7 @@ export default class HomePage extends React.Component {
           >
             <S.ContentBox>
               <S.Title>
-                <h3>Em Desenvolvimento...</h3>
+                Em Desenvolvimento...
               </S.Title>
               <S.Content>Em Desenvolvimento...</S.Content>
             </S.ContentBox>
@@ -44,7 +44,7 @@ export default class HomePage extends React.Component {
           >
             <S.ContentBox>
               <S.Title>
-                Cursos e Formações:
+                Cursos
               </S.Title>
               <S.Content>
                 <h3>
