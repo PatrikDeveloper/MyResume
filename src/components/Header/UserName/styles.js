@@ -11,10 +11,15 @@ export const UserName = styled('div')`
   color: #666;
   font-weight: bold;
 `;
+
 export const Description = styled('div')`
   font-size: 15px;
-  color: #666;
+  color: #ccc;
   line-height: 1em;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   margin: 0 30px 0;
+  font-weight: bold;
+
+  &:hover{
+    color: #3CB371;
+  }
 `;

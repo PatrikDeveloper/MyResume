@@ -49,11 +49,26 @@ export default class HomePage extends React.Component {
               <S.Content>
                 <h3>
                   <ul>
-                    <li>SENAC - AM: Técnico Em Informática Para Internet.</li>
-                    <li>SENAC - AM: Instalador e Reparador de Redes de Computadores.</li>
-                    <li>SENAC - AM: Montagem e Manutenção de Computadores.</li>
-                    <li>SENAI - AM: Web Designer.</li>
-                    <li>CETAM - AM: Informática Básica.</li>
+                    <li>
+                      <a href="https://www.am.senac.br/">SENAC - AM: </a>
+                      Técnico Em Informática Para Internet.
+                    </li>
+                    <li>
+                      <a href="https://www.am.senac.br/">SENAC - AM: </a>
+                      Instalador e Reparador de Redes de Computadores.
+                    </li>
+                    <li>
+                      <a href="https://www.am.senac.br/">SENAC - AM: </a>
+                      Montagem e Manutenção de Computadores.
+                    </li>
+                    <li>
+                      <a href="http://www.am.senai.br/">SENAI - AM: </a>
+                      Web Designer.
+                    </li>
+                    <li>
+                      <a href="http://www.cetam.am.gov.br/">CETAM - AM: </a>
+                      Informática Básica.                    
+                    </li>
                   </ul>
                 </h3>
               </S.Content>
