@@ -15,7 +15,7 @@ export default class SocialIcon extends React.Component {
           </a>
         </S.Icon>
         <S.Icon >
-          <a href="https://www.w3schools.com/html/">
+          <a href="https://github.com/PatrikDeveloper">
             <ImageIcon img={GitHub} />
           </a>
         </S.Icon>
