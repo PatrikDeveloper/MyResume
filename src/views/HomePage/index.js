@@ -2,6 +2,7 @@ import React from 'react';
 import Page from '../../components/Page';
 import * as S from './styles';
 import Accordion from '../../components/Accordion';
+import TextContent from '../../components/TextContent';
 
 export default class HomePage extends React.Component {
   render(){
@@ -13,7 +14,11 @@ export default class HomePage extends React.Component {
           >
             <S.ContentBox>
               <S.Title><h3>Bem-vindo ao meu portfólio!</h3></S.Title>
-              <S.Content>Fico feliz que você esteja aqui, mas este ainda é um trabalho em andamento. Se você quiser falar comigo, envie-me um e-mail.</S.Content>
+              <S.Content>
+                <S.TextContent>Fico feliz que você esteja aqui, mas este ainda é um trabalho em       andamento. Se você quiser falar comigo, envie-me um e-mail:
+                 patrikmatos.tecinfo@gmail.com                
+                </S.TextContent>
+              </S.Content>
             </S.ContentBox>    
           </Accordion>
         
@@ -24,7 +29,9 @@ export default class HomePage extends React.Component {
               <S.Title>
                 <h3>Em Desenvolvimento...</h3>
               </S.Title>
-              <S.Content>Em Desenvolvimento...</S.Content>
+              <S.Content>
+                <S.TextContent>Em Desenvolvimento...</S.TextContent>
+              </S.Content>
             </S.ContentBox>
           </Accordion>
 
@@ -35,7 +42,9 @@ export default class HomePage extends React.Component {
               <S.Title>
                 Em Desenvolvimento...
               </S.Title>
-              <S.Content>Em Desenvolvimento...</S.Content>
+              <S.Content>
+                <S.TextContent>Em Desenvolvimento...</S.TextContent>
+                </S.Content>
             </S.ContentBox>
           </Accordion>
 
@@ -47,30 +56,8 @@ export default class HomePage extends React.Component {
                 Cursos
               </S.Title>
               <S.Content>
-                <h3>
-                  <ul>
-                    <li>
-                      <a href="https://www.am.senac.br/">SENAC - AM: </a>
-                      Técnico Em Informática Para Internet.
-                    </li>
-                    <li>
-                      <a href="https://www.am.senac.br/">SENAC - AM: </a>
-                      Instalador e Reparador de Redes de Computadores.
-                    </li>
-                    <li>
-                      <a href="https://www.am.senac.br/">SENAC - AM: </a>
-                      Montagem e Manutenção de Computadores.
-                    </li>
-                    <li>
-                      <a href="http://www.am.senai.br/">SENAI - AM: </a>
-                      Web Designer.
-                    </li>
-                    <li>
-                      <a href="http://www.cetam.am.gov.br/">CETAM - AM: </a>
-                      Informática Básica.                    
-                    </li>
-                  </ul>
-                </h3>
+                
+                <TextContent />
               </S.Content>
             </S.ContentBox>
           </Accordion>
