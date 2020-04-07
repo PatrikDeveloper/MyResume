@@ -5,7 +5,6 @@ import image from "../../assets/img/patrik.png";
 export const Wrapper = styled("div")`
   border-radius: 10px;
   overflow: hidden;
-  padding: 0 0 20px;
 `;
 
 export const ImageHeader = styled("div")`
@@ -35,4 +34,8 @@ export const imageThumbNail = styled("div")`
 
 export const ProfileInfo = styled("div")`
   padding: 15px;
+  background-image: linear-gradient(
+    rgba(255, 255, 255, 0.6),
+    rgba(255, 255, 255, 0.9)
+  );
 `;

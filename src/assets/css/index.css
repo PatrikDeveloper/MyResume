@@ -1,11 +1,17 @@
-*, *:before, *:after {
+*,
+*:before,
+*:after {
   padding: 0;
   margin: 0;
   -webkit-box-sizing: border-box;
-     -moz-box-sizing: border-box;
-          box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-html, body {
-  font-family: Roboto,Ubuntu,Tahoma,Helvetica,Arial,sans-serif;  
+html,
+body {
+  font-family: Roboto, Ubuntu, Tahoma, Helvetica, Arial, sans-serif;
+  background: url("https://i2.wp.com/background4free.com/download/blue_yellow_light_115379772.jpg?q=100");
+  background-size: cover;
+  background-attachment: fixed;
 }

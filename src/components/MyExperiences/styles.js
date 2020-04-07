@@ -2,10 +2,11 @@ import styled from "styled-components";
 
 export const Wrapper = styled("div")``;
 
-export const WrapperText = styled.div`
+export const WrapperItem = styled.div`
   padding: 25px;
-  border-top: 1px solid #3cb371;
+  border-top: 1px solid #ddd;
   font-family: Arial, Helvetica, sans-serif;
+  background: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, 0.8));
 `;
 
 export const Title = styled.div`
@@ -13,17 +14,18 @@ export const Title = styled.div`
   font-weight: bold;
 `;
 
-export const label = styled.label`
+export const label = styled.div`
   font-size: 14px;
+  margin-right: 5px;
 `;
 
-export const WrapperLogo = styled.div`
+export const WrapperTitle = styled.div`
   display: inline-block;
   vertical-align: top;
-  width: 60%;
+  width: 65%;
 `;
 export const WrapperDescription = styled.div`
   display: inline-block;
   vertical-align: top;
-  width: 40%;
+  width: 30%;
 `;
