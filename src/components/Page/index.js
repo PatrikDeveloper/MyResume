@@ -1,34 +1,25 @@
-import React from 'react';
-import styled from 'styled-components';
-import Header from '../Header';
+import React from "react";
+import styled from "styled-components";
 
-
-const Wrapper = styled('div')`
-  
+const Wrapper = styled("div")`
+  margin: 20px 0;
 `;
 
-const ContentWrapper = styled('div')`
+const ContentWrapper = styled("div")`
   max-width: 700px;
   margin: auto;
-  box-shadow: -1px -1px 7px 0px rgba(0,0,0,0.50);
+  box-shadow: -1px -1px 7px 0px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
 `;
 
-const Content = styled('div')`
-  
-`;
+const Content = styled("div")``;
 
 export default function Page(props) {
-  return(
+  return (
     <Wrapper>
       <ContentWrapper>
-          <Header />
-
-          <Content>
-            {props.children}
-          </Content>
-
+        <Content>{props.children}</Content>
       </ContentWrapper>
     </Wrapper>
-  )
+  );
 }

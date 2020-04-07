@@ -1,0 +1,22 @@
+.accordion__section {
+}
+
+.accordionTitle__wrapper {
+  margin: auto;
+  padding: 15px 50px;
+  width: 100%;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-color: #3cb371;
+  transition: 0.3s;
+}
+
+.accordionTitle__text {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.accordionContent__wrapper {
+}
