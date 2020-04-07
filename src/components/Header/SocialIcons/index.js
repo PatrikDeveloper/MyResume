@@ -10,12 +10,12 @@ export default class SocialIcon extends React.Component {
     return (
       <S.Wrapper>
         <S.Icon>
-          <a href="https://www.instagram.com/patrikdev/">
+          <a href="https://www.instagram.com/patrikmatos_/">
             <ImageIcon img={Instagram} />
           </a>
         </S.Icon>
         <S.Icon>
-          <a href="https://github.com/PatrikDeveloper">
+          <a href="https://github.com/Patrikdev/">
             <ImageIcon img={GitHub} />
           </a>
         </S.Icon>
