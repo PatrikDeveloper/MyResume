@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f946646c.chunk.css",
+    "main.js": "/static/js/main.ade1286a.chunk.js",
+    "main.js.map": "/static/js/main.ade1286a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.eb07c764.js",
+    "runtime-main.js.map": "/static/js/runtime-main.eb07c764.js.map",
+    "static/js/2.e5b6a24a.chunk.js": "/static/js/2.e5b6a24a.chunk.js",
+    "static/js/2.e5b6a24a.chunk.js.map": "/static/js/2.e5b6a24a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.613cd24734bb9a1d042f15b4bab89d85.js": "/precache-manifest.613cd24734bb9a1d042f15b4bab89d85.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.f946646c.chunk.css.map": "/static/css/main.f946646c.chunk.css.map",
+    "static/js/2.e5b6a24a.chunk.js.LICENSE.txt": "/static/js/2.e5b6a24a.chunk.js.LICENSE.txt",
+    "static/media/github.png": "/static/media/github.803668c2.png",
+    "static/media/header.jpg": "/static/media/header.f0233cc7.jpg",
+    "static/media/instagram.png": "/static/media/instagram.5c570427.png",
+    "static/media/patrik.png": "/static/media/patrik.fbd8c42f.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.eb07c764.js",
+    "static/js/2.e5b6a24a.chunk.js",
+    "static/css/main.f946646c.chunk.css",
+    "static/js/main.ade1286a.chunk.js"
+  ]
+}
