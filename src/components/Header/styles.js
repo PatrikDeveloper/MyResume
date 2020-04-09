@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import imageFile from "../../assets/img/header.jpg";
-import image from "../../assets/img/patrik.png";
+import image from "../../assets/img/patrik.jpeg";
 
 export const Wrapper = styled("div")`
   border-radius: 10px;
