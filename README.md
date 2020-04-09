@@ -1,5 +1,5 @@
-# MEU PRIMEIRO PORTIFÓLIO FEITO COM REACT E STYLED COMPONENTS
+# MEU PRIMEIRO PORTIFÓLIO FEITO COM REACT E STYLED COMPONENTS.
 
 Demo https://patrikdev.github.io/MyResume/
 
-![dashboard](/screenshot/dashboard.png)
+![dashboard](/screenshot/home.png)
