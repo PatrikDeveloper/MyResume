@@ -9,6 +9,10 @@ const ContentWrapper = styled("div")`
   box-shadow: -1px -1px 7px 0px rgba(0, 0, 0, 0.5);
   border-radius: 10px;
   overflow: hidden;
+
+  @media (max-width: 700px) {
+    margin: 0 auto;
+  }
 `;
 
 const Content = styled("div")``;

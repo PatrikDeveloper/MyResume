@@ -9,6 +9,10 @@ const Wrapper = styled.div`
 const Label = styled.div`
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
+
+  @media (max-width: 400px) {
+    font-size: 14px;
+  }
 `;
 
 export default function MyResume(props) {
