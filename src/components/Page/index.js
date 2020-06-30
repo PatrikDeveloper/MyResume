@@ -12,6 +12,7 @@ const ContentWrapper = styled("div")`
 
   @media (max-width: 700px) {
     margin: 0 auto;
+    border-radius: 0;
   }
 `;
 

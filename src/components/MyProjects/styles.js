@@ -63,5 +63,6 @@ export const WrapperDescription = styled.div`
   @media (max-width: 320px) {
     width: 50%;
     padding: 0;
+    text-align: left;
   }
 `;
